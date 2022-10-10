@@ -20,7 +20,7 @@ body{
     max-width: 1000px;
     min-height: 1000px;
     background: #fff;
-    margin: 50px;
+    margin: 15px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
@@ -30,7 +30,7 @@ body{
 .container .left_side{
     position: relative;
     background: #003147;
-    padding: 40px;
+    padding: 25px;
     
 
 
@@ -40,7 +40,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     border-bottom: 3px solid rgba(255, 255, 255, 0.2);
 }
 /* .profileText .imgBx{
@@ -67,8 +67,8 @@ body{
     border-radius: 100%;
     top: 2px;
     left: 2px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     object-fit: cover;
     
@@ -113,7 +113,7 @@ body{
 }
 .contactinfo ul li .icon{
     display: inline-block;
-    width: 30px;
+    width: 18px;
     font-size: 18px;
     color: #03a9f4;
 
@@ -151,14 +151,14 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 50%;
     background: #03a9f4;
 }
 
 .container .right_side{
     position: relative;
     background: #fff;
-    padding: 40px;
+    padding: 25px;
 
 
 }
@@ -174,7 +174,7 @@ body{
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 
 
 }
@@ -268,11 +268,11 @@ a{
     /* color: rgb(69, 69, 243); */
     color: #03a9f4;
   }
-@media(max-width:1000px){
+/* @media(max-width:1000px){
     .container{
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
 
     }
-}
+} */
 
