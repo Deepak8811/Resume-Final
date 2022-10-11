@@ -23,7 +23,7 @@ body{
     margin: 15px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    /* box-shadow: 0 35px 55px rgba(0,0,0,0.1); */
 
 
 }
